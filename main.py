@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 import os
-yolo_dir = 'D:/pro/object detection' 
+yolo_dir = '' 
 weights_path = os.path.join(yolo_dir, "yolov3.weights")
 config_path = os.path.join(yolo_dir, "yolov3.cfg")
 names_path = os.path.join(yolo_dir, "coco.names")
